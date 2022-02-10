@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UIUX">
         <activity
+            android:name=".intro3"
+            android:exported="true" />
+        <activity
+            android:name=".intro2"
+            android:exported="true" />
+        <activity
+            android:name=".intro1"
+            android:exported="true" />
+        <activity
             android:name=".SignupActivity"
             android:exported="true" />
         <activity
