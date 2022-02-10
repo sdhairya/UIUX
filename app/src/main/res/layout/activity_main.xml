@@ -45,8 +45,9 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:textSize="18sp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/text_corner"
             />
 
@@ -65,11 +66,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/firstname_TextField"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         >
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/text_corner"
             />
 
