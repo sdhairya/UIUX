@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".intro1">
+    tools:context=".intro1"
+    android:background="#FFFFFF">
 
     <ImageView
         android:id="@+id/writingimageView"
@@ -33,7 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="-20dp"
         android:text="Keep a track of Maintenance"
-        android:textColor="@color/white"
+        android:textColor="#FFFFFF"
         android:textSize="26dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -47,7 +48,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Payment"
-        android:textColor="@color/white"
+        android:textColor="#FFFFFF"
         android:textSize="26dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -91,10 +92,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
+        android:padding="10dp"
         android:text="Get Started!!"
         android:textAllCaps="false"
         android:textColor="#445BC3"
         android:textSize="26sp"
+        android:background="@drawable/button_corner"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
