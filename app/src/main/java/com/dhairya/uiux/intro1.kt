@@ -1,11 +1,13 @@
 package com.dhairya.uiux
 
+import android.content.Intent
 import android.graphics.Color
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.view.WindowManager
+import androidx.appcompat.widget.AppCompatButton
 
 class intro1 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,6 +16,18 @@ class intro1 : AppCompatActivity() {
 
         setStatusBarTransparent()
         supportActionBar?.hide()
+
+        var intro1_next_btn = findViewById<AppCompatButton>(R.id.intro1_next_btn)
+
+        intro1_next_btn.setOnClickListener {
+            Intent(this,intro2::class.java).apply {
+                startActivity(this)
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+            }
+        }
+
+
+
     }
 
     private fun setStatusBarTransparent() {

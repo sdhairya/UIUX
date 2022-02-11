@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".intro1"
-    android:background="#FFFFFF">
+    android:background="#FFFFFF"
+    >
 
     <ImageView
         android:id="@+id/writingimageView"
@@ -62,7 +63,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toTopOf="@id/intro1_stared_btn"
+        app:layout_constraintBottom_toTopOf="@id/intro1_next_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/intro1_title2">
@@ -88,16 +89,19 @@
     </LinearLayout>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/intro1_stared_btn"
+        android:id="@+id/intro1_next_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
         android:padding="10dp"
-        android:text="Get Started!!"
+        android:text="Next"
+        android:background="@drawable/button_corner"
+
+
         android:textAllCaps="false"
         android:textColor="#445BC3"
         android:textSize="26sp"
-        android:background="@drawable/button_corner"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

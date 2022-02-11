@@ -4,13 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
+
     tools:context=".intro3">
 
     <ImageView
         android:id="@+id/broomimageView"
         android:layout_width="match_parent"
         android:layout_height="600dp"
-        android:src="@drawable/broom"
+        android:src="@drawable/walking"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
 
@@ -24,7 +26,7 @@
         android:scaleType="centerCrop"
         android:src="@drawable/graph"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintHorizontal_bias="0.571"
 
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/broomimageView" />
@@ -34,8 +36,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="-20dp"
-        android:text="Get Domestic Service Staff At"
-        android:textColor="@color/white"
+        android:text="Get Notified About Society"
+        android:textColor="#FFFFFF"
         android:textSize="26dp"
 
 
@@ -51,8 +53,8 @@
         android:id="@+id/intro3_title2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Doormate"
-        android:textColor="@color/white"
+        android:text="Meetings"
+        android:textColor="#FFFFFF"
         android:textSize="26dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -67,7 +69,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toTopOf="@id/intro3_stared_btn"
+        app:layout_constraintBottom_toTopOf="@id/intro3_started_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/intro3_title2">
@@ -94,10 +96,13 @@
     </LinearLayout>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/intro3_stared_btn"
+        android:id="@+id/intro3_started_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/button_corner"
         android:backgroundTint="@color/white"
+        android:padding="10dp"
+
         android:text="Get Started!!"
         android:textAllCaps="false"
         android:textColor="#445BC3"
@@ -105,6 +110,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/intro3_title2" />
+        app:layout_constraintTop_toBottomOf="@+id/cricle_slider"
+        app:layout_constraintVertical_bias="0.496" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
