@@ -5,6 +5,8 @@
       <map>
         <entry key="..\:/CP/UIUX/app/src/main/res/drawable/add_pic_background.xml" value="0.16623931623931623" />
         <entry key="..\:/CP/UIUX/app/src/main/res/drawable/button_corner.xml" value="0.16623931623931623" />
+        <entry key="..\:/CP/UIUX/app/src/main/res/drawable/corner.xml" value="0.16623931623931623" />
+        <entry key="..\:/CP/UIUX/app/src/main/res/drawable/corner_redious.xml" value="0.16623931623931623" />
         <entry key="..\:/CP/UIUX/app/src/main/res/drawable/ic_baseline_add_a_photo_24.xml" value="0.16623931623931623" />
         <entry key="..\:/CP/UIUX/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.16623931623931623" />
         <entry key="..\:/CP/UIUX/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.16623931623931623" />
@@ -22,6 +24,7 @@
         <entry key="..\:/CP/UIUX/app/src/main/res/layout/activity_intro3.xml" value="0.15" />
         <entry key="..\:/CP/UIUX/app/src/main/res/layout/activity_main.xml" value="0.18645833333333334" />
         <entry key="..\:/CP/UIUX/app/src/main/res/layout/activity_maintenance_invoice.xml" value="0.152991452991453" />
+        <entry key="..\:/CP/UIUX/app/src/main/res/layout/resident_details.xml" value="0.152991452991453" />
         <entry key="..\:/CP/UIUX/app/src/main/res/layout/resident_list.xml" value="0.152991452991453" />
         <entry key="..\:/CP/UIUX/app/src/main/res/layout/resident_list_item.xml" value="0.22" />
       </map>
