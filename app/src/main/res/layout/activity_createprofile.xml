@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/background"
+        android:rotation="270"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
@@ -20,21 +21,29 @@
         android:id="@+id/view"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        app:layout_constraintHeight_percent="0.87"
+        app:layout_constraintHeight_percent="0.8"
         app:layout_constraintBottom_toBottomOf="parent"
         android:background="@drawable/corner"/>
 
     <TextView
-        android:id="@+id/txt_signup"
+        android:id="@+id/txt_profile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sign Up"
+        android:text="Create Profile"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toTopOf="@id/view"
         android:textSize="35sp"
         android:textColor="@color/white"/>
+
+    <ImageButton
+        android:id="@+id/choose_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/name_TextField"
@@ -44,10 +53,10 @@
         android:background="@drawable/text_corner"
         android:elevation="10sp"
         android:hint="Full name"
+        app:layout_constraintTop_toBottomOf="@id/choose_pic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_percent="0.07"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/view"
         app:layout_constraintWidth_percent="0.7"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
@@ -65,7 +74,7 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="50sp"
+        android:layout_marginTop="30sp"
         android:background="@drawable/text_corner"
         android:elevation="10sp"
         android:hint="Mobile No."
@@ -89,7 +98,7 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="50sp"
+        android:layout_marginTop="30sp"
         android:background="@drawable/text_corner"
         android:elevation="10sp"
         android:hint="Email"
@@ -114,7 +123,7 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="50sp"
+        android:layout_marginTop="30sp"
         android:background="@drawable/text_corner"
         android:elevation="10sp"
         android:hint="Flat No."
@@ -133,14 +142,29 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
+    <TextView
+        android:id="@+id/occupancy_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:text="Ownership Status: "
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@id/radioGroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/flatno_TextField" />
+
     <RadioGroup
         android:id="@+id/radioGroup"
         android:checkedButton="@+id/radio_button_1"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:elevation="10dp"
         android:orientation="horizontal"
         android:gravity="center_horizontal"
-        app:layout_constraintTop_toBottomOf="@id/flatno_TextField"
+        android:layout_marginTop="10sp"
+        app:layout_constraintTop_toBottomOf="@id/occupancy_textview"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         >
@@ -148,27 +172,39 @@
         android:id="@+id/radio_button_1"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:text="Resident Owner"
-        android:textSize="16dp"/>
+        android:text="Resident \nOwner"
+        android:textSize="17dp"
+        android:textAlignment="center"
+        android:button="@color/transparent"
+        android:paddingHorizontal="30dp"
+        android:background="@drawable/radio_ownership_selector"
+        android:textColor="@drawable/radio_ownership_text"/>
     <RadioButton
         android:id="@+id/radio_button_2"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:text="Renting Appartment"
-        android:textSize="16dp"/>
+        android:text="Renting \nAppartment"
+        android:textSize="17dp"
+        android:textAlignment="center"
+        android:paddingHorizontal="30dp"
+        android:button="@color/transparent"
+        android:background="@drawable/radio_ownership_selector"
+        android:textColor="@drawable/radio_ownership_text"/>
 
     </RadioGroup>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_signup"
+        android:id="@+id/btn_create_profile"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="@drawable/button_corner"
         android:elevation="10sp"
-        android:text="Sign Up"
+        android:text="Create Profile"
+        android:textAllCaps="false"
         android:textColor="@color/white"
-        android:textSize="15sp"
-        android:layout_marginTop="50sp"
+        android:textSize="24sp"
+        android:layout_marginTop="30sp"
+        app:layout_constraintTop_toBottomOf="@id/radioGroup"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_percent="0.07"
         app:layout_constraintStart_toStartOf="parent"
