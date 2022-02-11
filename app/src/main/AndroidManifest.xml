@@ -19,7 +19,7 @@
             android:name=".intro1"
             android:exported="true" />
         <activity
-            android:name=".SignupActivity"
+            android:name=".CreateProfileActivity"
             android:exported="true" />
         <activity
             android:name=".MainActivity"

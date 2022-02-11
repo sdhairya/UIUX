@@ -3,9 +3,9 @@ package com.dhairya.uiux
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class SignupActivity : AppCompatActivity() {
+class CreateProfileActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_signup)
+        setContentView(R.layout.activity_createprofile)
     }
 }
