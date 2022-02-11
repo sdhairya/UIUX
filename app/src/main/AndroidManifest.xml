@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UIUX">
         <activity
+            android:name=".ExpenseSheetActivity"
+            android:exported="true" />
+        <activity
             android:name=".ResidentList"
             android:exported="true" />
         <activity
