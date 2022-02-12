@@ -22,7 +22,9 @@
         <entry key="..\:/CP/UIUX/app/src/main/res/layout/activity_intro3.xml" value="0.15" />
         <entry key="..\:/CP/UIUX/app/src/main/res/layout/activity_main.xml" value="0.18645833333333334" />
         <entry key="..\:/CP/UIUX/app/src/main/res/layout/activity_maintenance_invoice.xml" value="0.152991452991453" />
-        <entry key="..\:/CP/UIUX/app/src/main/res/layout/resident_list.xml" value="0.152991452991453" />
+        <entry key="..\:/CP/UIUX/app/src/main/res/layout/login.xml" value="0.14957264957264957" />
+        <entry key="..\:/CP/UIUX/app/src/main/res/layout/resident_details_dialog.xml" value="0.14957264957264957" />
+        <entry key="..\:/CP/UIUX/app/src/main/res/layout/resident_list.xml" value="0.22" />
         <entry key="..\:/CP/UIUX/app/src/main/res/layout/resident_list_item.xml" value="0.22" />
       </map>
     </option>
