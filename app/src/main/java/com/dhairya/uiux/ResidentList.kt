@@ -15,14 +15,14 @@ class ResidentList : AppCompatActivity() {
 
 
 
-        var showdialogdemo =  findViewById<Button>(R.id.showdialogdemo)
+//        var showdialogdemo =  findViewById<Button>(R.id.showdialogdemo)
+//
+//        showdialogdemo.setOnClickListener {
+//
+//            val dialog = Dialog(this)
+//            dialog.setContentView(R.layout.resident_details_dialog)
+//            dialog.show()
 
-        showdialogdemo.setOnClickListener {
-
-            val dialog = Dialog(this)
-            dialog.setContentView(R.layout.resident_details_dialog)
-            dialog.show()
-
-        }
+//        }
     }
 }
