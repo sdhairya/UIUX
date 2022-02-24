@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UIUX">
         <activity
+            android:name=".ChangePasswordActivity"
+            android:exported="false" />
+        <activity
             android:name=".AddingMemberActivity"
             android:exported="true" />
         <activity
