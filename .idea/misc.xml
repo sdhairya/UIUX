@@ -33,13 +33,16 @@
         <entry key="..\:/college/SEM 5/MAD/UIUX/app/src/main/res/layout/activity_change_password.xml" value="0.33" />
         <entry key="..\:/college/SEM 5/MAD/UIUX/app/src/main/res/layout/activity_confirmation.xml" value="0.33" />
         <entry key="..\:/college/SEM 5/MAD/UIUX/app/src/main/res/layout/activity_createprofile.xml" value="0.36666666666666664" />
+        <entry key="..\:/college/SEM 5/MAD/UIUX/app/src/main/res/layout/activity_dash_board.xml" value="0.36666666666666664" />
         <entry key="..\:/college/SEM 5/MAD/UIUX/app/src/main/res/layout/activity_expense_sheet.xml" value="0.36666666666666664" />
         <entry key="..\:/college/SEM 5/MAD/UIUX/app/src/main/res/layout/activity_forgot_password.xml" value="0.33" />
         <entry key="..\:/college/SEM 5/MAD/UIUX/app/src/main/res/layout/activity_intro1.xml" value="0.36102564102564105" />
         <entry key="..\:/college/SEM 5/MAD/UIUX/app/src/main/res/layout/activity_intro2.xml" value="0.36102564102564105" />
         <entry key="..\:/college/SEM 5/MAD/UIUX/app/src/main/res/layout/activity_intro3.xml" value="0.36102564102564105" />
+        <entry key="..\:/college/SEM 5/MAD/UIUX/app/src/main/res/layout/activity_maintenance_invoice.xml" value="0.36666666666666664" />
         <entry key="..\:/college/SEM 5/MAD/UIUX/app/src/main/res/layout/login.xml" value="0.36666666666666664" />
         <entry key="..\:/college/SEM 5/MAD/UIUX/app/src/main/res/layout/resident_list_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/college/SEM 5/MAD/UIUX/app/src/main/res/menu/bottom_nav.xml" value="0.3619791666666667" />
       </map>
     </option>
   </component>
